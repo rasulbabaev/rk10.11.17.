@@ -5,7 +5,7 @@ int main()
 {
 	setlocale(LC_ALL, "Russian");
     int n, i, j, k, l, t;
-    cout << " Ââîäèòå ÷åðåç ïðîáåë " << endl;
+    cout << " Вводите через пробел  " << endl;
     cin >> k >> l;
     int a[k][l];
     for (i = 0; i < k; i++)
