@@ -14,12 +14,12 @@ int main()
     }
     cout << "Вводите через пробел"<< endl;
     
-    int a[n];
+    int *a = new int[n];
     for (i = 0; i < n; i++) {
         cin >> a[i];
     }
     cin >> x;
-    i/5nt b[x - 1], c[n - x - 1];
+    int b[x - 1], c[n - x - 1];
     for (i = 0; i < x; i++) {
         b[i] = a[i];
     }
