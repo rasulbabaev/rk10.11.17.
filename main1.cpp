@@ -32,5 +32,6 @@ int main()
     for (i = 0; i < x; i++) {
         cout << b[i] << " ";
     }
+	delete [] a;
     return 0;
 }
