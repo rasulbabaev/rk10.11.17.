@@ -14,7 +14,7 @@ int main()
     }
       a= new int[k];
         cout << "Вводите через пробел " << endl;
-    int a[k];
+    
     for (i = 0; i < k; i++) {
         cin >> a[i];
     }
