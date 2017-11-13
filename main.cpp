@@ -7,9 +7,12 @@ int main()
 	using namespace std;
 	
     int k, i;
+    int *a = nullptr;
     cin >> k;
-    if (k <= 0)
-        return 0;
+    if (k <= 0){
+	cout << "error";
+    }
+      a= new int[k];
         cout << "Вводите через пробел " << endl;
     int a[k];
     for (i = 0; i < k; i++) {
