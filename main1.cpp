@@ -8,8 +8,10 @@ int main()
 	using namespace std;
     int i, n, x;
     cin >> n;
-    if (n <= 0)
+    if (n <= 0){
+	    cout << " error";
         return 0;
+    }
     cout << "Вводите через пробел"<< endl;
     
     int a[n];
@@ -17,7 +19,7 @@ int main()
         cin >> a[i];
     }
     cin >> x;
-    int b[x - 1], c[n - x - 1];
+    i/5nt b[x - 1], c[n - x - 1];
     for (i = 0; i < x; i++) {
         b[i] = a[i];
     }
